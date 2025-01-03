@@ -1,0 +1,11 @@
+#!/bin/bash
+
+### show date for 20 times and then exit
+
+count=20
+while [ $count -gt 0 ] ;
+do
+  echo `date`
+  ((count--))
+  sleep 1
+done
